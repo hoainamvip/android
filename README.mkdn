@@ -17,7 +17,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 - Lunch a target
 ```bash
-lunch lineage_codename-bp4a-user
+lunch lineage_unicorn-bp4a-user
 ```
 
 - To start compiling
@@ -27,7 +27,7 @@ m bacon
 
 - Maintainer prop (define in system/product prop)
 ```prop
-ro.lunaris.maintainer=GHOST | ゴースト
+ro.lunaris.maintainer=AnhLaPR59 | 龙卷风
 ```
 
 - About phone 
@@ -47,12 +47,12 @@ WITH_GMS := true
 
 - Use aosp telephony
 ```make
-WITH_GMS_COMMS_SUITE := false
+WITH_GMS_COMMS_SUITE := true
 ```
 
 - Disable pixel launcher
 ```make
-WITH_PIXEL_LAUNCHER := false
+WITH_PIXEL_LAUNCHER := true
 ```
 
 - Build google maps
@@ -67,12 +67,12 @@ TARGET_USE_FILES := true
 
 - Use aosp gallery
 ```make
-TARGET_USE_GPHOTOS := false
+TARGET_USE_GPHOTOS := true
 ```
 
 - Disable live wallpaper and other
 ```make
-TARGET_USE_WALLPAPERS := false
+TARGET_USE_WALLPAPERS := true
 ```
 
 - Use X reality engine (careful with mtk, causes display stuck issue)
