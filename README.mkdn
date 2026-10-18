@@ -32,7 +32,7 @@ ro.lunaris.maintainer=AnhLaPR59 | 龙卷风
 
 - About phone 
 ```prop
-https://github.com/Pong-Development/device_nothing_Pong/blob/luna/overlay/pong/NTSettingsResTarget/res/values/lunaris_strings.xml
+https://github.com/hoainamvip/android_device_xiaomi_unicorn/blob/lineage-24.0/overlay%2FSettings%2Fres%2Fvalues%2Flunaris_strings.xml
 ```
 
 - If device support UDFPS
